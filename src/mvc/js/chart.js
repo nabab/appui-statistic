@@ -33,7 +33,7 @@
       },
       chartType(){
         if (this.currentType) {
-          let total = bbn.fn.get_field(this.source.types, {id: this.currentType}, 'total');
+          let total = bbn.fn.getField(this.source.types, 'total', {id: this.currentType});
           if (total) {
             return 'line';
           }
