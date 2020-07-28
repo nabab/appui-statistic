@@ -1,88 +1,90 @@
 {
-  "keys": {
+  "bbn_statistics": {
+    "keys": {
       "id_option_2": {
-          "columns": [
-              "id_option",
-              "code",
-              "day"
-          ],
-          "ref_db": null,
-          "ref_table": null,
-          "ref_column": null,
-          "constraint": "bbn_statistics_ibfk_1",
-          "update": "CASCADE",
-          "delete": "CASCADE",
-          "unique": 1
+        "columns": [
+          "id_option",
+          "code",
+          "day"
+        ],
+        "ref_db": null,
+        "ref_table": null,
+        "ref_column": null,
+        "constraint": "bbn_statistics_ibfk_1",
+        "update": "CASCADE",
+        "delete": "CASCADE",
+        "unique": 1
       },
       "id_option": {
-          "columns": [
-              "id_option"
-          ],
-          "ref_db": null,
-          "ref_table": "bbn_options",
-          "ref_column": "id",
-          "constraint": "bbn_statistics_ibfk_1",
-          "update": "CASCADE",
-          "delete": "CASCADE",
-          "unique": 0
-      }
-  },
-  "cols": {
-      "id_option": [
-          "id_option_2",
+        "columns": [
           "id_option"
+        ],
+        "ref_db": null,
+        "ref_table": "bbn_options",
+        "ref_column": "id",
+        "constraint": "bbn_statistics_ibfk_1",
+        "update": "CASCADE",
+        "delete": "CASCADE",
+        "unique": 0
+      }
+    },
+    "cols": {
+      "id_option": [
+        "id_option_2",
+        "id_option"
       ],
       "code": [
-          "id_option_2"
+        "id_option_2"
       ],
       "day": [
-          "id_option_2"
+        "id_option_2"
       ]
-  },
-  "fields": {
+    },
+    "fields": {
       "id_option": {
-          "position": 1,
-          "type": "binary",
-          "null": 0,
-          "key": "PRI",
-          "extra": "",
-          "signed": true,
-          "virtual": false,
-          "generation": "",
-          "maxlength": 16
+        "position": 1,
+        "type": "binary",
+        "null": 0,
+        "key": "PRI",
+        "extra": "",
+        "signed": true,
+        "virtual": false,
+        "generation": "",
+        "maxlength": 16
       },
       "code": {
-          "position": 2,
-          "type": "varchar",
-          "null": 0,
-          "key": "PRI",
-          "extra": "",
-          "signed": true,
-          "virtual": false,
-          "generation": "",
-          "default": "default",
-          "maxlength": 30
+        "position": 2,
+        "type": "varchar",
+        "null": 0,
+        "key": "PRI",
+        "extra": "",
+        "signed": true,
+        "virtual": false,
+        "generation": "",
+        "default": "default",
+        "maxlength": 30
       },
       "day": {
-          "position": 3,
-          "type": "date",
-          "null": 0,
-          "key": "PRI",
-          "extra": "",
-          "signed": true,
-          "virtual": false,
-          "generation": ""
+        "position": 3,
+        "type": "date",
+        "null": 0,
+        "key": "PRI",
+        "extra": "",
+        "signed": true,
+        "virtual": false,
+        "generation": ""
       },
       "res": {
-          "position": 4,
-          "type": "int",
-          "null": 0,
-          "key": null,
-          "extra": "",
-          "signed": false,
-          "virtual": false,
-          "generation": "",
-          "maxlength": 14
+        "position": 4,
+        "type": "int",
+        "null": 0,
+        "key": null,
+        "extra": "",
+        "signed": false,
+        "virtual": false,
+        "generation": "",
+        "maxlength": 14
       }
+    }
   }
 }
