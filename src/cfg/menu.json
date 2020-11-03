@@ -1,6 +1,7 @@
 {
   "text": "Statistics",
   "icon": "nf nf-fa-line_chart",
+  "num": 24,
   "items": [{
     "text": "List",
     "icon": "nf nf-fa-th_list",
