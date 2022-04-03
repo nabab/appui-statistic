@@ -1,0 +1,54 @@
+{
+  "cfg": {
+    "show_code": 1,
+    "show_icon": 1,
+    "allow_children": 1,
+    "i18n": "en"
+  },
+  "id_parent": ["appui"],
+  "text": "Statistic",
+  "plugin": true,
+  "code": "statistic",
+  "id_alias": ["plugin", "list", "templates", "option", "appui"],
+  "icon": "nf nf-fa-bar_chart",
+  "tekname": "stats",
+  "items": [
+    {
+      "cfg": {
+        "show_code": 1
+      },
+      "text": "Active",
+      "code": "active"
+    },
+    {
+      "cfg": {
+        "show_code": 1
+      },
+      "text": "Disabled",
+      "code": "disabled"
+    },
+    {
+      "cfg": {
+        "show_code": 1
+      },
+      "text": "Types",
+      "code": "types",
+      "items": [
+        {
+          "cfg": {
+            "show_code": 1
+          },
+          "text": "Totals",
+          "code": "totals"
+        },
+        {
+          "cfg": {
+            "show_code": 1
+          },
+          "text": "Variations",
+          "code": "variations"
+        }
+      ]
+    }
+  ]
+}
