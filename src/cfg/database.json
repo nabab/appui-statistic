@@ -42,7 +42,6 @@
     },
     "fields": {
       "id_option": {
-        "position": 1,
         "type": "binary",
         "null": 0,
         "key": "PRI",
@@ -53,7 +52,6 @@
         "maxlength": 16
       },
       "code": {
-        "position": 2,
         "type": "varchar",
         "null": 0,
         "key": "PRI",
@@ -65,7 +63,6 @@
         "maxlength": 30
       },
       "day": {
-        "position": 3,
         "type": "date",
         "null": 0,
         "key": "PRI",
@@ -75,7 +72,6 @@
         "generation": ""
       },
       "res": {
-        "position": 4,
         "type": "int",
         "null": 0,
         "key": null,
