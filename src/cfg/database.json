@@ -7,19 +7,12 @@
           "code",
           "day"
         ],
-        "ref_db": null,
-        "ref_table": null,
-        "ref_column": null,
-        "constraint": "bbn_statistics_ibfk_1",
-        "update": "CASCADE",
-        "delete": "CASCADE",
         "unique": 1
       },
       "id_option": {
         "columns": [
           "id_option"
         ],
-        "ref_db": null,
         "ref_table": "bbn_options",
         "ref_column": "id",
         "constraint": "bbn_statistics_ibfk_1",
@@ -45,20 +38,14 @@
         "type": "binary",
         "null": 0,
         "key": "PRI",
-        "extra": "",
         "signed": true,
-        "virtual": false,
-        "generation": "",
         "maxlength": 16
       },
       "code": {
         "type": "varchar",
         "null": 0,
         "key": "PRI",
-        "extra": "",
         "signed": true,
-        "virtual": false,
-        "generation": "",
         "default": "default",
         "maxlength": 30
       },
@@ -66,19 +53,13 @@
         "type": "date",
         "null": 0,
         "key": "PRI",
-        "extra": "",
         "signed": true,
-        "virtual": false,
         "generation": ""
       },
       "res": {
         "type": "int",
         "null": 0,
-        "key": null,
-        "extra": "",
         "signed": false,
-        "virtual": false,
-        "generation": "",
         "maxlength": 14
       }
     }
