@@ -38,14 +38,12 @@
         "type": "binary",
         "null": 0,
         "key": "PRI",
-        "signed": true,
         "maxlength": 16
       },
       "code": {
         "type": "varchar",
         "null": 0,
         "key": "PRI",
-        "signed": true,
         "default": "default",
         "maxlength": 30
       },
@@ -53,13 +51,12 @@
         "type": "date",
         "null": 0,
         "key": "PRI",
-        "signed": true,
         "generation": ""
       },
       "res": {
         "type": "int",
         "null": 0,
-        "signed": false,
+        "signed": 0,
         "maxlength": 14
       }
     }
