@@ -7,4 +7,7 @@ foreach (Statistic::getOptions('active') as $o) {
     $stat = new Statistic($ctrl->db, $o['code'], $cfg);
     $stat->update();
   }
+  else {
+    throw new Exception(_("Impossible to load the statistic") . ' ' . $o['code']);
+  }
 }
