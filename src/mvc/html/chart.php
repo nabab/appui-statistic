@@ -1,4 +1,4 @@
-<div class="bbn-overlay bbn-padded">
+<div class="bbn-overlay bbn-padding">
   <div class="bbn-flex-height">
     <div class="bbn-middle">
       &nbsp;<?= _("Start") ?>:&nbsp;
