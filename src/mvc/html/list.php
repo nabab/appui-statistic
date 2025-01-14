@@ -2,7 +2,7 @@
 <bbn-table :source="source.stats"
            :sortable="true">
 	<bbns-column field="id"
-          :hidden="true">
+          :invisible="true">
   </bbns-column>
   <bbns-column field="code"
                :width="200"
