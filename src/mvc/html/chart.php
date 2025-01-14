@@ -8,7 +8,7 @@
       &nbsp;#<?= _("Values") ?>:&nbsp;
       <bbn-numeric class="bbn-narrower" :min="10" :max="365" v-model="values"></bbn-numeric>
       &nbsp;
-      <bbn-button :notext="true" icon="nf nf-fa-refresh" @click="refresh" text="<?= _('Refresh') ?>"></bbn-button>
+      <bbn-button :notext="true" icon="nf nf-fa-refresh" @click="refresh" label="<?= _('Refresh') ?>"></bbn-button>
       <bbn-dropdown class="bbn-wide"
                     :source="source.types"
                     source-value="id"

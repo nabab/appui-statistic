@@ -6,16 +6,16 @@
   </bbns-column>
   <bbns-column field="code"
                :width="200"
-               :title="_('Code')">
+               :label="_('Code')">
   </bbns-column>
   <bbns-column field="text"
-               :title="_('Name')">
+               :label="_('Name')">
   </bbns-column>
   <bbns-column field="num"
                :width="100"
-               :title="'#' + _('Days')">
+               :label="'#' + _('Days')">
   </bbns-column>
-  <bbns-column :title="_('Actions')"
+  <bbns-column :label="_('Actions')"
                :width="120"
                :buttons="[
                          {text: _('Reset'), icon: 'nf nf-mdi-refresh', action: reset}
