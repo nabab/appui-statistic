@@ -18,7 +18,7 @@
   <bbns-column :label="_('Actions')"
                :width="120"
                :buttons="[
-                         {text: _('Reset'), icon: 'nf nf-mdi-refresh', action: reset}
+                         {text: _('Reset'), icon: 'nf nf-md-refresh', action: reset}
                          ]">
   </bbns-column>
 </bbn-table>
