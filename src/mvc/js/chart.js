@@ -14,19 +14,19 @@
     },
     computed: {
       startTime(){
-        return bbn.date(this.start).mtst;
+        return bbn.dt(this.start).mtst;
       },
       endTime(){
-        return bbn.date(this.end).mtst;
+        return bbn.dt(this.end).mtst;
       },
       valuesDays(){
         return this.values * DAY_LENGTH;
       },
       minPlus(){
-        return bbn.date(this.startTime + this.valuesDays).sql();
+        return bbn.dt(this.startTime + this.valuesDays).sql();
       },
       maxMinus(){
-        return bbn.date(this.endTime - this.valuesDays).sql();
+        return bbn.dt(this.endTime - this.valuesDays).sql();
       },
       isDaily(){
         return Math.round((this.endTime - this.startTime) / DAY_LENGTH) === this.values;
