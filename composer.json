@@ -1,19 +1,23 @@
 {
-  "name": "bbn/appui-statistic",
-  "description": "A statistic system for appui",
-  "keywords": ["statistic", "php", "appui"],
-  "homepage": "https://github.com/nabab/appui-statistic",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Thomas Nabet",
-      "email": "thomas.nabet@gmail.com",
-      "homepage": "https://bbn.solutions",
-      "role": "Developer"
+    "name": "bbn\/appui-statistic",
+    "description": "A statistic system for appui",
+    "keywords": [
+        "statistic",
+        "php",
+        "appui"
+    ],
+    "homepage": "https:\/\/github.com\/nabab\/appui-statistic",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Nabet",
+            "email": "thomas.nabet@gmail.com",
+            "homepage": "https:\/\/bbn.solutions",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.5",
+        "bbn\/bbn": "^1.1"
     }
-  ],
-  "require": {
-    "php": ">=8.3",
-    "bbn/bbn": "dev-master"
-  }
 }
