@@ -1,5 +1,5 @@
 <?php
-/* @var \bbn\mvc\model $model */
+/** @var \bbn\mvc\model $model */
 if ($model->has_data(['type', 'values', 'end'], true)) {
   /*
   $ret = [
